@@ -2,7 +2,7 @@ require 'ruby_cowsay'
 
 class CowsayController < ApplicationController
   def index
-    @phrase = "Muuuu!!"
+    @phrase = "Moooo!!"
    
     if(params.has_key?(:phrase))
       @phrase = params[:phrase]
